@@ -27,4 +27,4 @@ La tarea se centró en el uso de propiedades avanzadas de CSS, con énfasis en:
 - **Footer Responsivo**: Diseñado para reorganizarse en diferentes columnas y filas, dependiendo del tamaño de la pantalla, utilizando CSS Grid.
 - **Tarjeta Profesional de Clima**: Presenta información del clima en un formato limpio y profesional, con un diseño que se ajusta para visualizarse bien en dispositivos de todos los tamaños.
 
-Puedes ver el proyecto en vivo aquí: [Tarea Especial - Box Modeling y Grid]()
+Puedes ver el proyecto en vivo aquí: [Tarea-6-css](https://tarea-6-clase-css.vercel.app)
