@@ -1,171 +1,95 @@
-/* Importando la fuente personalizada */
 @font-face {
     font-family: "Poiret One";
     src: url('/Fonts/PoiretOne-Regular.ttf') format('truetype');
 }
 
-/* General */
-.body {
-    margin: 0;
-    font-family: "Poiret One", sans-serif; /* Aplicando la fuente personalizada */
-    background-color: #f0f0f0;
-    color: #333;
-    display: flex; /* Habilitando flexbox para centrar contenido */
-    justify-content: center; /* Centrando horizontalmente */
-    align-items: center; /* Centrando verticalmente */
-    height: 100vh; /* Tomando toda la altura de la ventana */
-}
-
-/* Header */
-header {
-    background-color: #2c3e50;
-    color: white;
-    padding: 10px;
-    width: 100%; /* Asegurando que el header tome el 100% del ancho */
-    position: absolute; /* Posicionando el header de forma absoluta */
-    top: 0; /* Arriba de la página */
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-.logo img {
-    max-width: 80px;
-}
-
-.navigation ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navigation a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.navigation a:hover {
-    text-decoration: underline;
-}
-
-/* Tarjeta del clima */
 main {
-    display: flex; /* Habilitando flexbox para el main */
-    justify-content: center; /* Centrando horizontalmente */
-    align-items: center; /* Centrando verticalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-color: rgb(174, 76, 88);
+}
+.etiqueta-contenedora {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 20rem;
+    width: 100rem;
 }
 
-main > .etiqueta-contenedora > .cloudy {
+.cloudy {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    background-color: #FAF9FA; /* Color de fondo */
-    height: 18rem; /* Altura de la tarjeta */
-    width: 35rem; /* Ancho de la tarjeta */
-    border-radius: 1rem; /* Esquinas redondeadas */
+    background-color: #FAF9FA; 
+    height: 18rem; 
+    width: 35rem;
+    border-radius: 1rem; 
 }
 
-main > .etiqueta-contenedora > .cloudy p {
-    color: #F5F2F2; /* Color del texto */
-}
-
-main > .etiqueta-contenedora > .cloudy > .grados {
-    background-color: #000000; /* Color de fondo de grados */
-    height: 7rem; /* Altura de la sección de grados */
-    width: 7rem; /* Ancho de la sección de grados */
-    border-radius: 0rem 0rem 0rem 1rem; /* Esquinas redondeadas */
-}
-
-main > .etiqueta-contenedora > .cloudy > .grados p {
-    font-family: "Poiret One"; /* Aplicando la fuente */
-    font-size: 4rem; /* Tamaño del texto de grados */
+.grados {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    height: 7rem;
+    border-radius: 0rem 0rem 0rem 1rem; 
+}
+.grados p {
+    color: #F5F2F2;
+    font-family: "Poiret One";
+    font-size: 4rem; 
+    width: 6.99rem;
     position: relative;
-    left: 2rem; /* Ajustando posición */
-    top: 1.1rem; /* Ajustando posición */
+    left: 2rem;    
 }
 
-main > .etiqueta-contenedora > .cloudy > .tiempo-en {
-    background-color: #070706; /* Color de fondo de tiempo */
-    height: 7rem; /* Altura de la sección de tiempo */
-    width: 19rem; /* Ancho de la sección de tiempo */
+.tiempo-en {
+    background-color: #000000; 
+    height: 7rem; 
+    width: 19rem; 
     display: flex;
     justify-items: center;
     flex-direction: column;
     align-items: center;
 }
 
-main > .etiqueta-contenedora > .cloudy > .tiempo-en > img {
-    height: 10rem; /* Altura de la imagen del icono */
-    width: 10rem; /* Ancho de la imagen del icono */
+.tiempo-en > img {
+    height: 10rem; 
+    width: 10rem; 
     position: relative;
-    bottom: 9rem; /* Ajustando posición */
+    bottom: 9rem; 
 }
 
-main > .etiqueta-contenedora > .cloudy > .tiempo-en > span {
-    color: #F5F2F2; /* Color del texto del tiempo */
-    font-size: 2.5rem; /* Tamaño del texto del tiempo */
-    font-family: "Poiret One"; /* Aplicando la fuente */
-    text-transform: uppercase; /* Texto en mayúsculas */
+.tiempo-en > span {
+    color: #F5F2F2; 
+    font-size: 2.5rem; 
+    font-family: "Poiret One"; 
+    text-transform: uppercase; 
     position: relative;
-    bottom: 8.6rem; /* Ajustando posición */
+    bottom: 8.6rem; 
 }
-
-main > .etiqueta-contenedora > .cloudy > .tiempo-en p {
-    font-family: "Poiret One"; /* Aplicando la fuente */
+.tiempo-en p {
+    color: #F5F2F2;
+    font-family: "Poiret One";
     position: relative;
-    bottom: 8.8rem; /* Ajustando posición */
+    bottom: 8.8rem; 
 }
 
-main > .etiqueta-contenedora > .cloudy > .fecha {
-    background-color: #6EB6B2; /* Color de fondo de la fecha */
-    height: 7rem; /* Altura de la sección de fecha */
-    width: 9rem; /* Ancho de la sección de fecha */
-    border-radius: 0rem 0rem 1rem 0rem; /* Esquinas redondeadas */
+.cloudy > .fecha {
+    background-color: #6EB6B2; 
+    height: 7rem; 
+    width: 9.1rem;
+    border-radius: 0rem 0rem 1rem 0rem;
 }
 
-main > .etiqueta-contenedora > .cloudy > .fecha > p {
-    font-size: 2rem; /* Tamaño del texto de la fecha */
-    text-align: center; /* Alineación del texto */
+.fecha > p {
+    color: #FAF9FA;
+    font-size: 2rem; 
+    text-align: center; 
     position: relative;
-    top: 2rem; /* Ajustando posición */
-    text-transform: capitalize; /* Capitalizando el texto */
-    font-family: "Poiret One"; /* Aplicando la fuente */
-}
-
-/* Footer */
-footer {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-footer nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-footer nav a:hover {
-    text-decoration: underline;
-}
-
-hr {
-    margin: 30px 0;
+    top: 2rem; 
+    text-transform: capitalize; 
+    font-family: "Poiret One"; 
 }
