@@ -2,15 +2,15 @@
 
 
 ## Descripción del Proyecto
-Este proyecto fue realizado como parte de las clases especiales de los miércoles, enfocadas en el uso de Box Modeling y la creación de diseños responsivos. 
-Se desarrolló un footer utilizando Grid y una tarjeta profesional de clima, aplicando técnicas avanzadas de diseño CSS.
+Este proyecto fue realizado enfocadas en el uso de Box Modeling y la creación de diseños responsivos. 
+Se desarrolló un footer utilizando Grid y una tarjeta profesional de clima.
 Box Modeling y Diseño Responsivo con Grid
 
 ## Consigna de la Tarea
 El objetivo de esta tarea fue:
 - Diseñar un **footer responsivo** utilizando Grid, de modo que se adapte a diferentes tamaños de pantalla.
 - Crear una **tarjeta profesional de clima** con un diseño adaptable, mostrando la información de manera clara y estilizada.
-- Aplicar media queries para ajustar el diseño de ambos componentes en dispositivos móviles y pantallas más grandes.
+- Aplicar media queries para ajustar el diseño en dispositivos móviles y pantallas más grandes.
 
 ## Tecnologías Utilizadas
 - **HTML**: Para la estructura del footer y la tarjeta de clima.
