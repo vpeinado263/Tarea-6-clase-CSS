@@ -13,12 +13,12 @@ El objetivo de esta tarea fue:
 - Aplicar media queries para ajustar el diseño en dispositivos móviles y pantallas más grandes.
 
 ## Tecnologías Utilizadas
-- **HTML**: Para la estructura del footer y la tarjeta de clima.
-- **CSS**: Para el diseño y los estilos aplicando Grid y Box Modeling.
+- **HTML5**: Para la estructura del footer y la tarjeta de clima.
+- **CSS3**: Para el diseño y los estilos aplicando Grid y Box Modeling.
 - **Media Queries**: Para hacer que el footer y la tarjeta de clima sean completamente responsivos y se ajusten a diferentes tamaños de pantalla.
 
 ## Temática del Proyecto
-La tarea se centró en el uso de propiedades avanzadas de CSS, con énfasis en:
+La tarea se centró en el uso de propiedades avanzadas de CSS3, con énfasis en:
 - **Box Modeling**: Definición de márgenes, rellenos y bordes en los elementos del footer y la tarjeta de clima.
 - **Grid Layout**: Implementación de un diseño de cuadrícula en el footer para organizar el contenido de manera ordenada.
 - **Media Queries**: Configuración de puntos de quiebre para que ambos componentes se adapten a distintos dispositivos, mejorando la experiencia del usuario en dispositivos móviles y de escritorio.
